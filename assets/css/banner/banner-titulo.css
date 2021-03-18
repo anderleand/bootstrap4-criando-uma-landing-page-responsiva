@@ -1,0 +1,62 @@
+.banner__titulo {
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    font-size: 5.0625rem;
+}
+
+/*
+@media screen and (min-width: 0) {
+    .banner_titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner_titulo {
+        font-size: 5.0625rem;
+    }
+}
+*/
+
+@media (max-width: 1024px) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 650px) {
+
+}
+
+
+/*media queries
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: white;
+    }
+    .instagram-wrapper {
+        width: 90%;
+    }
+    .instagram-phone {
+        display: none;
+    }
+    .instagram-continue {
+        width: 100%;
+    }
+    .group {
+        border: 1px solid transparent;
+    }
+}*/
